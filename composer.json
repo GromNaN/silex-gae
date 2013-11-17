@@ -1,0 +1,17 @@
+{
+    "name": "grom/hello-silex",
+    "require": {
+        "silex/silex": "~1.1",
+        "twig/twig": "~1.12",
+        "symfony/monolog-bridge": "~2.3"
+    },
+    "authors": [
+        {
+            "name": "Jérôme Tamarelle",
+            "email": "jerome@tamarelle.net"
+        }
+    ],
+    "autoload": {
+        "classmap": ["google/"]
+    }
+}

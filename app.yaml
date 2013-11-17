@@ -1,0 +1,13 @@
+# Google App Engine configuration
+# https://developers.google.com/appengine/docs/php/config/appconfig
+application: hello-silex
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+- url: /.*
+  script: app.php
